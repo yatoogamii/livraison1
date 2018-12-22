@@ -18,10 +18,10 @@
 				<figure class="vertical-bar-nav">
 					<img src="img/vertical-bar.png" alt="vertical bar">
 				</figure>
+				<a href="index.html">Home</a>
 				<a href="prices.html">Prices</a>
-				<a href="prices.html">About</a>
-				<a href="prices.html">Contact</a>
-				<a href="prices.html">Sign in</a>
+				<a href="about.html">About</a>
+				<a href="sign-in.html">Sign in</a>
 				<figure class="search">
 					<i class="fas fa-search" title="search icon"></i>
 				</figure>
@@ -39,16 +39,19 @@
 				</article>
 				<article class="form">
 					<form>
-						First name : 
-						<input type="text" name="firstname">
-						Last name :
-						<input type="text" name="lastname">
-						Email :
-						<input type="text" name="email">
-						Phone :
-						<input type="text" name="phone">
-						<textarea name="comment" form="usrform" placeholder="Enter text here..."></textarea>
-						<input type="submit" name="Submit">
+						<fieldset>
+							<label for="first-name" class="label-first-name">First name :</label> 
+							<input type="text" name="firstname" class="input-first-name">
+							<label for="last-name" class="label-last-name">Last name :</label>
+							<input type="text" name="lastname" class="input-last-name">
+							<label for="email" class="label-email">Email :</label>
+							<input type="text" name="email" class="input-email">
+							<label for="phone" class="label-phone">Phone :</label>
+							<input type="text" name="phone" class="input-phone">
+							<label for="message" class="label-message">Message :</label>
+							<textarea name="comment" form="usrform" placeholder="Enter text here..."></textarea>
+							<input type="submit" name="Submit" class="button-submit">
+						</fieldset>
 					</form>
 				</article>
 			</section>
@@ -56,7 +59,9 @@
 			<footer>
 				<section class="footer">
 					<article class="breadcrumb">
-						<a href="#"> Home </a>
+						<a href="index.html"> Home </a>
+						>
+						<a href="#"> Contact </a>
 					</article>
 					<article class="network">
 						<a href="#"> <i class="fab fa-twitter" title="logo twitter icon"></i> </a>
