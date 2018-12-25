@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;	
+	border: 0;
+	box-sizing: border-box;
+	font-size: 10;
+}
+
+/* Header style */
+
+nav {
+	background-color:  #0058cf;
+}
+
+figure.menu, figure.search, figure.user {
+	display: none;
+}
+
+figure.dog-face, figure.vertical-bar-nav {
+	display: inline;
+}
+
+figure.dog-face > img {
+	width: 7%;
+	margin: 0.5rem 0 0 0.7rem;
+	padding-right: 1rem;
+	border-right: 0.15rem solid  #1d1d1d;
+}
+
+figure.vertical-bar-nav > img {
+	display: none;
+	width: 3%;
+}
+
+div.nav-links {
+	display: inline-block;
+	width: 100%;
+	background-color: yellow;
+}
+
+a {
+	text-decoration: none;
+	font-family: fantasy;
+	color:  #1d1d1d;
+}
