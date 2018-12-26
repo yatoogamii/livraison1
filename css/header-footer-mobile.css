@@ -1,0 +1,63 @@
+/* Low tablets, mobiles (landscape) */
+
+@media screen and (max-width: 1000px) {
+
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 10;
+		font-family: fantasy;
+	}
+
+	nav {
+		background-color: #05668D;
+	}
+
+	a {
+		display: none;
+	}
+
+	figure.menu, figure.search, figure.user {
+		display: inline-block;
+	}
+
+	figure.menu {
+		position: relative;
+		left: 3vw;
+		bottom: 2.1vw;
+		color:  #1D1D1D;
+		font-size: 1.7rem;
+	}
+
+	figure.search, figure.user {
+		position: relative;
+		bottom: 1.5vh;
+		margin: 0.2vh 0.5vw 0.2vh 0.5vw;
+		color: #1d1d1d;
+	}
+
+	i.fa-user-circle {
+		font-size: 1.7rem;
+		margin: 3vh 0 0 1vw;
+	}
+
+	figure.search {
+		position: relative;
+		right: 2vw;
+		margin: 0.2vh 0.5vw 0.2vh 62vw;
+
+	}
+
+	figure.dog-face {
+		display: inline;
+	}
+
+	figure.dog-face > img {
+		position: relative;
+		left: 37vw;
+		width: 10%;
+	}
+}
+
+
