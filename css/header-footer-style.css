@@ -8,6 +8,7 @@
 
 /* Low tablets, mobiles (landscape) */
 @media (min-width: 320px) and (max-width: 480px) {
+
 	 nav {
 		 background-color: #05668D;
 	 }
@@ -48,6 +49,7 @@
 }
 
 /* Header style */
+
 @media (min-width: 1281px) {
   
 	nav {
