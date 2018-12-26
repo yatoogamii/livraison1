@@ -6,8 +6,8 @@
 	font-size: 10;
 	font-family: 'Sarabun', sans-serif;
 }
+/* Header style */
 
-/* Low tablets, mobiles (landscape) */
 @media screen and (max-width: 1900px) {
   
 	nav {
@@ -50,7 +50,9 @@
 
 }
 
-@media screen and (max-width: 500px) {
+/* Low tablets, mobiles (landscape) */
+
+@media screen and (max-width: 1000px) {
 
 	 nav {
 		 background-color: #05668D;
@@ -74,8 +76,8 @@
 	figure.search, figure.user {
 		position: relative;
 		left: 75vw;
-		bottom: 0.5vw;
-		margin: 0.2rem 0.5rem 0.2rem 0.5rem;
+		bottom: 0.2vh;
+		margin: 0.2vh 0.5vw 0.2vh 0.5vw;
 		color: #1d1d1d;
 	}
 	 figure.dog-face {
@@ -91,5 +93,4 @@
 	}
 }
 
-/* Header style */
 
