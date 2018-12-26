@@ -7,7 +7,7 @@
 }
 
 /* Low tablets, mobiles (landscape) */
-	 
+@media (min-width: 320px) and (max-width: 480px) {
 	 nav {
 		 background-color: #05668D;
 	 }
@@ -45,6 +45,7 @@
 	figure.dog-face > img {
 		width: 100%;
 	}
+}
 
 /* Header style */
 @media (min-width: 1281px) {
