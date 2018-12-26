@@ -9,37 +9,38 @@
 /* Header style */
 
 nav {
-	background-color:  #0058cf;
+	background-color:  #05668D;
 }
 
 figure.menu, figure.search, figure.user {
 	display: none;
 }
 
-figure.dog-face, figure.vertical-bar-nav {
+figure.dog-face {
 	display: inline;
 }
 
 figure.dog-face > img {
-	width: 7%;
-	margin: 0.5rem 0 0 0.7rem;
-	padding-right: 1rem;
+	width: 8%;
+	margin: 0.5rem 0 0 0.9rem;
+	padding-right: 2rem;
 	border-right: 0.15rem solid  #1d1d1d;
 }
 
-figure.vertical-bar-nav > img {
-	display: none;
-	width: 3%;
-}
-
-div.nav-links {
-	display: inline-block;
-	width: 100%;
-	background-color: yellow;
-}
-
 a {
+	display: inline;
+	margin: 6vw;
+	position: relative;
+	bottom: 1.5vw;
 	text-decoration: none;
 	font-family: fantasy;
+	font-size: 2.5rem;
 	color:  #1d1d1d;
+}
+
+a:hover {
+	color: #DCDCDC;
+	transition-property: color;
+	transition-duration: 0.4s;
+	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
 }
