@@ -11,38 +11,3 @@
 
 }
 
-@media screen and (min-width: 992px) {
-
-	* {
-		margin: 0;
-		padding: 0;	
-		border: 0;
-		box-sizing: border-box;
-		font-size: 10px;
-		font-family: 'advent_proregular', sans-serif;
-	}
-
-	.img-responsive{
-		max-width: 100%;
-		height: auto;
-	}
-
-	main {
-		display: none;
-	}
-	footer {
-		display: none;
-	}
-
-
-	/* Header style */
-
-	.menu, .search, .user {
-		display: none;
-	}
-
-	nav {
-		background-color:  #05668D;
-		width: 100%;
-	}
-
