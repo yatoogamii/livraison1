@@ -4,119 +4,188 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link rel="stylesheet" href="/css/style.css" type="text/css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile/header-footer-mobile.css" type="text/css"/>
+		<link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop/header-footer-desktop.css" type="text/css"/>
+		<link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop/prices-desktop.css" type="text/css"/>
 		<title></title>
 	</head>
 	<body>
-		<header>
-			<nav> 
-				<figure class="menu">
-					<i class="fas fa-bars" title="menu icon"></i>
+		<div id="main_wrapper">
+			<header>
+				<figure class="logo">
+					<a href="index.html"><img class="img-responsive logo" src="img/dogface.svg" alt="logo dog face"></a>
 				</figure>
-				<figure class="dogface">
-					<img src="img/dogface.svg" alt="logo dog face">
-				</figure>
-				<figure class="vertical-bar-nav">
-					<img src="img/vertical-bar.png" alt="vertical bar">
-				</figure>
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="contact.html">Contact</a>
-				<a href="sign-in.html">Sign in</a>
-				<figure class="search">
-					<i class="fas fa-search" title="search icon"></i>
-				</figure>
-				<figure class="user">
-					<i class="fas fa-user-circle" title="user icon"></i>
-				</figure>
-			</nav>
-		</header>
-		<main>
-		<section>
-			<article>
-				<h1>Prices</h1>
-				<h2>Money back guarantee !</h2>
-				<figure>
-					<table>
-						<tbody>
+				<nav> 
+					<figure class="menu">
+						<i class="fas fa-bars" title="menu icon"></i>
+					</figure>
+					<div class="nav-link">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="contact.html">Contact</a>
+						<a href="sign-in.html">Sign in</a>
+					</div>
+					<figure class="search">
+						<i class="fas fa-search" title="search icon"></i>
+					</figure>
+					<figure class="user">
+						<i class="fas fa-user-circle" title="user icon"></i>
+					</figure>
+				</nav>
+			</header>
+			<main>
+			<section>
+				<article>
+					<h1>Prices</h1>
+					<h2>Money back guarantee !</h2>
+					<div class="prices">
+						<table>
 							<tr>
-							<td></td>
-							<th scope="col">Big dog</th>
-							<th scope="col">Little dog</th>
-							<th scope="col">Cat</th>
-						</tr>
-						<tr>
-							<th scope="row">Dietetics</th>
-							<td>3kb/h*</td>
-							<td>4kb/h*</td>
-							<td>3kb/h*</td>
-						</tr>
-						<tr>
-							<th scope="row">Fitness</th>
-							<td>7kb/h*</td>
-							<td>8kb/h*</td>
-							<td>10kb/h*</td>
-						</tr>
-						<tr>
-							<th scope="row">Workout</th>
-							<td>12kb/h*</td>
-							<td>13kb/h*</td>
-							<td>15kb/h*</td>
-						</tr>
-						</tbody>
-					</table>
-					<figcaption>*kb = kibbles, i also accept small sugar, bones and bitcoin. We can make a deal</figcaption>
-				</figure>
-			</article>
-		</section>
-		</main>
-		<footer>
-			<section class="footer">
-				<article class="breadcrumb">
-					<a href="index.html"> Home </a>
-					&gt;
-					<a href="#"> Prices </a>
+								<td class="title">Big dog</td>
+							</tr>
+							<tr>
+								<td>200kb/m</td>
+							</tr>
+							<tr>
+								<td>Dietetics</td>
+							</tr>
+							<tr>
+								<td>workout</td>
+							</tr>
+							<tr>
+								<td class="button">
+									<button type="button">Take it</button>
+								</td>
+							</tr>
+						</table>
+						<table class="little-dog">
+							<tr>
+								<td class="title">little dog</td>
+							</tr>
+							<tr>
+								<td>240kb/m</td>
+							</tr>
+							<tr>
+								<td>Fitness</td>
+							</tr>
+							<tr>
+								<td>workout</td>
+							</tr>
+							<tr>
+								<td class="button">
+									<button type="button">Take it</button>
+								</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<td class="title">Cat</td>
+							</tr>
+							<tr>
+								<td>400kb/m</td>
+							</tr>
+							<tr>
+								<td>Dietetics</td>
+							</tr>
+							<tr>
+								<td>workout</td>
+							</tr>
+							<tr>
+								<td class="button">
+									<button type="button">Take it</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<!-- <figure> -->
+					<!-- 	<table> -->
+					<!-- 		<tbody> -->
+					<!-- 			<tr> -->
+					<!-- 				<td></td> -->
+					<!-- 				<th scope="col">Big dog</th> -->
+					<!-- 				<th scope="col">Little dog</th> -->
+					<!-- 				<th scope="col">Cat</th> -->
+					<!-- 			</tr> -->
+					<!-- 			<tr> -->
+					<!-- 				<th scope="row">Dietetics</th> -->
+					<!-- 				<td>3kb/h*</td> -->
+					<!-- 				<td>4kb/h*</td> -->
+					<!-- 				<td>3kb/h*</td> -->
+					<!-- 			</tr> -->
+					<!-- 			<tr> -->
+					<!-- 				<th scope="row">Fitness</th> -->
+					<!-- 				<td>7kb/h*</td> -->
+					<!-- 				<td>8kb/h*</td> -->
+					<!-- 				<td>10kb/h*</td> -->
+					<!-- 			</tr> -->
+					<!-- 			<tr> -->
+					<!-- 				<th scope="row">Workout</th> -->
+					<!-- 				<td>12kb/h*</td> -->
+					<!-- 				<td>13kb/h*</td> -->
+					<!-- 				<td>15kb/h*</td> -->
+					<!-- 			</tr> -->
+					<!-- 		</tbody> -->
+					<!-- 	</table> -->
+					<!-- 	<figcaption>*kb = kibbles, i also accept small sugar, bones and bitcoin. We can make a deal</figcaption> -->
+					<!-- </figure> -->
 				</article>
-				<article class="network">
-					<a href="#"> <i class="fab fa-twitter" title="logo twitter icon"></i> </a>
-					<a href="#"> <i class="fab fa-facebook-f" title="logo facebook icon"></i> </a>	
-					<a href="#"> <i class="fas fa-envelope" title="logo envelope icon"></i> </a>	
-					<a href="#"> <i class="fas fa-phone" title="logo phone icon"></i> </a>	
-				</article>
-				<figure class="vertical-bar-footer">
-					<img src="img/vertical-bar.png">
-				</figure>
-				<article class="feedback">
+			</section>
+			</main>
+			<footer>
+				<div class="network">
+					<h2>Network</h2>
+					<div class="twitter">
+						<a href="#"> <i class="fab fa-twitter" title="logo twitter icon"></i> </a>
+					</div>
+					<div class="facebook">
+						<a href="#"> <i class="fab fa-facebook-f" title="logo facebook icon"></i> </a>	
+					</div>
+					<div class="envelope">
+						<a href="#"> <i class="fas fa-envelope" title="logo envelope icon"></i> </a>	
+					</div>
+					<div class="phone">
+						<a href="#"> <i class="fas fa-phone" title="logo phone icon"></i> </a>	
+					</div>
+				</div>
+				<hr class="left"/>
+				<div class="feedback">
 					<h2> Feedback </h2>
-					<figure class="boxerface">
-						<img src="img/boxerface.png" alt="boxer face">
-					</figure>
-					<figure class="ballon-left">
-						<p>
-							Amet quisquam optio blanditiis illo magni dolorum obcaecati vel? Dolores architecto voluptate modi numquam autem repellendus? A ex rerum dolore distinctio consequuntur illo eveniet dolore. Repudiandae architecto quia veniam amet?
-						</p>
-					</figure>
-					<figure class="ballon-right">
-						<p>
-							Amet quisquam optio blanditiis illo magni dolorum obcaecati vel? Dolores architecto voluptate modi numquam autem repellendus? A ex rerum dolore distinctio consequuntur illo eveniet dolore. Repudiandae architecto quia veniam amet?
-						</p>
-					</figure>
-					<figure class="mickey-face">
-						<img src="img/mickey-face.png" alt="coach face">
-					</figure>
-				</article>
-				<figure class="vertical-bar-footer">
-					<img src="img/vertical-bar.png">
-				</figure>
-				<article class="maps">
-					<h2>I'm here</h2>
+					<div class="boxer-row">
+						<figure class="boxerface">
+							<i class="far fa-user-circle"></i>
+						</figure>
+						<figure class="ballon-left">
+							<img class="ballon" src="img/ballon-left.png" alt="ballon text left">
+							<figcaption>
+								Super coach! Thanks to him I was able to obtain the title of heavyweight Champion of the World. thanks coach!
+								<br><strong>Robert Balboa, Sr.</strong>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="mickey-row">
+						<figure class="ballon-right">
+							<img  class="ballon" src="img/ballon-right.png" alt="ballon text right">
+							<figcaption>
+								Thank you very much for your message Rocky! I am glad that you were able to reach your goal and don't forget. "you're gonna eat lightning and you're gonna gonna crap thunder. " 
+								<br> <strong>Mickey GoldWoaf.</strong>
+							</figcaption>
+						</figure>
+						<figure class="mickey-face">
+							<i class="far fa-user-circle"></i>
+						</figure>
+					</div>
+				</div>
+				<hr class="right"/>
+				<div class="maps">
+					<h2>Maps</h2>
 					<a href="https://www.google.com/maps/place/LPA:+Ligue+Protectrice+des+Animaux/@50.6610023,3.0370806,12z/data=!4m8!1m2!2m1!1sLPA+Animal+Protection+League+roubaix!3m4!1s0x47c328c44fdee39b:0x6c0d0965d12aec43!8m2!3d50.7058702!4d3.1720896">
 						<i class="fas fa-map-marked-alt" title="link to google map"></i>
 					</a>
-						<map>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80933.61537688848!2d3.037080589417259!3d50.66100232982499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328c44fdee39b%3A0x6c0d0965d12aec43!2sLPA%3A+Ligue+Protectrice+des+Animaux!5e0!3m2!1sen!2sfr!4v1545411154809" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</map>
-				</article>
-			</section>
-		</footer>
+					<map>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40466.840944327785!2d3.0721873452615345!3d50.66096373678768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328c44fdee39b%3A0x6c0d0965d12aec43!2sLPA%3A+Ligue+Protectrice+des+Animaux!5e0!3m2!1sen!2sfr!4v1546595529399"></iframe>
+					</map>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'advent_proregular';
+	src: url('adventpro-regular-webfont.eot');
+	src: url('adventpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('adventpro-regular-webfont.woff2') format('woff2'),
+	url('adventpro-regular-webfont.woff') format('woff'),
+	url('adventpro-regular-webfont.ttf') format('truetype'),
+	url('adventpro-regular-webfont.svg#advent_proregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+/* low laptop and desktop */
+@media screen and (min-width: 992px) {
+
+	* {
+		margin: 0;
+		padding: 0;	
+		border: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+
+	html {
+		font-size: 62.5%;
+		font-weight: normal;
+		font-family: 'advent_proregular', Arial, sans-serif;
+	}
+
+	body {
+		color: white;
+		background-color: #1D1D1D;
+	}
+
+	#main_wrapper {
+		width: 100%;
+		margin: auto;
+	}
+
+	.img-responsive {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* main */
+
+	article {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	h1 {
+		width: 100%;
+		font-size: 3rem;
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	main	h2 {
+		width: 100%;
+		text-decoration: underline;
+		font-size: 2.5rem;
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	div.prices {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-size: 2.5rem;
+		padding: 2rem 0;
+		padding-bottom: 8rem;
+	}
+
+	main div table {
+		border: 0.19rem solid rgba(255, 255, 255, 0.6);
+		border-collapse: collapse;
+		width: 30%;
+	}
+
+	table.little-dog {
+		font-size: 3rem;
+		padding: 2.5rem 0;
+		border: 0.2rem solid rgba(255, 255, 255, 0.6);
+	}
+
+	th, td {
+		border-bottom: 0.2rem solid rgba(255, 255, 255, 0.6);
+		padding: 2rem 10rem;
+	}
+
+	td.title {
+		padding: 2rem;
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	td.button {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		height: 5rem;
+	}
+
+	td button {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		text-align: center;
+		color: white;
+		background-color: #044b67;
+	}
+
+	td button:hover {
+		background-color: #022f41;
+		transition-duration:  0.4s;
+	}
+
+	td::first-letter {
+		text-transform: uppercase;
+	}
+}
+
+
