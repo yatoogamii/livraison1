@@ -43,9 +43,20 @@
 	}
 
 	/* main */ 
+	article.dog-coach {
+		width: 100vw;
+		height: 91.9vh;
+		max-width: 100%;
+	}
+
+	figure.dog-coach-about {
+		width: 100vw;
+		height: 91.9vh;
+	}
 
 	figure.dog-coach-about img {
 		width: 100%;
+		height: 100%;
 	}
 
 	h1 {
