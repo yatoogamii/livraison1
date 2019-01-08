@@ -71,10 +71,16 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
 		text-align: center;
 		font-size: 2.5rem;
 		padding: 2rem 0;
 		padding-bottom: 8rem;
+	}
+
+	div.prices figcaption {
+		width: 100%;
+		padding: 2rem;
 	}
 
 	main div table {
@@ -115,12 +121,12 @@
 		height: 100%;
 		text-decoration: none;
 		text-align: center;
-		color: white;
-		background-color: #044b67;
+		color: #1d1d1d;
+		background-color: white;
 	}
 
 	td button:hover {
-		background-color: #022f41;
+		background-color: #347aC9;
 		transition-duration:  0.4s;
 	}
 
