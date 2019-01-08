@@ -78,7 +78,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		width: 50%;
-		text-align: right;
+		text-align: center;
 	}
 
 	article.exp figure {
@@ -96,12 +96,12 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		width: 50%;
-		text-align: left;
+		text-align: center;
 	}
 
 	article.ability figure {
 		width: 100%;
-		padding: 5rem 10rem;
+		padding: 5rem 9rem;
 	}
 	
 	section.sub hr {
@@ -115,6 +115,23 @@
 
 	.fa-paw {
 		color: #5C94D4;
+	   position: relative;
+	}
+
+	.paw-pedagogy {
+		left: 2rem;
+	}
+
+	.paw-wuff {
+		left: 3rem;
+	}
+
+	.paw-english {
+		left: 5rem;
+	}
+
+	.paw-dietetics {
+		left: 3.5rem;
 	}
 
 	.not-color {
