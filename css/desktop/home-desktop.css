@@ -32,6 +32,21 @@
 		color: #1d1d1d;
 	}
 
+	section.coach article figure {
+		width: 500px;
+		background: url("../../img/bouledogue.jpg") no-repeat center fixed;
+		background-size: cover;
+	}
+
+	.toto {
+		align-self: center;
+		width: 100vw;
+		height: 100vh;
+		background: url("../../img/bouledogue.jpg") no-repeat center;
+		background-size: cover;
+		
+	}
+
 	#main_wrapper {
 		width: 100%;
 		margin: auto;
@@ -47,13 +62,6 @@
 	}
 
 	/* coach article */
-
-	article.dog-coach-img figure {
-		position: relative;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
 
 
 	article.dog-coach-img figure figcaption {
