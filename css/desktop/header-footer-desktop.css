@@ -71,7 +71,7 @@
 
 	a:hover {
 		color: #cccccc;
-		transition-duration: 0.4s;
+		transition-duration: 0.3s;
 		transition-timing-function: cubic-bezier(.42,0,.58,1);
 	}	
 

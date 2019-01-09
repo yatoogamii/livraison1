@@ -366,14 +366,14 @@
 
 	article.dog-and-cat {
 		width: 100vw;
-		height: 70vh;
+		height: 100vh;
 		max-width: 100%;
 	}
 
 	figure.hug-dog-cat {
 		display: flex;
 		width: 100vw;
-		height: 70vh;
+		height: 100vh;
 		max-width: 100%;
 	}
 
