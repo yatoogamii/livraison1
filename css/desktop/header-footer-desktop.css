@@ -21,6 +21,13 @@
 		text-decoration: none;
 	}
 
+	html {
+		font-size: 62.5%;
+		font-weight: normal;
+		font-family: 'advent_proregular', Arial, sans-serif;
+		height: 100%;
+	}
+
 	/* Header style */
 
 	.menu, .search, .user {
@@ -212,6 +219,7 @@
 		left: 1.5rem;
 		width: 80%;
 		height: 100%;
+		
 	}
 
 	div.feedback figure.ballon-left figcaption {
