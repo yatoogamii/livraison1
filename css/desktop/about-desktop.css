@@ -43,20 +43,12 @@
 	}
 
 	/* main */ 
-	article.dog-coach {
+	article.bouledogue-img {
+		background: url(../../img/bouledogue.jpg) no-repeat center;
+		background-size: cover;
 		width: 100vw;
-		height: 91.9vh;
+		height: 100vh;
 		max-width: 100%;
-	}
-
-	figure.dog-coach-about {
-		width: 100vw;
-		height: 91.9vh;
-	}
-
-	figure.dog-coach-about img {
-		width: 100%;
-		height: 100%;
 	}
 
 	h1 {
